@@ -61,8 +61,8 @@
 		<xsl:text>&#10;</xsl:text>
 		<xsl:for-each select="fmp:RESULTSET/fmp:ROW">
 			<xsl:for-each select="fmp:COL">
-				<xsl:variable name="mypos" select="position()"/>
-				<xsl:if test="not( contains( /fmp:FMPXMLRESULT/fmp:METADATA/fmp:FIELD[position()=$mypos]/@NAME, '::' ) )">
+				<xsl:variable name="i" select="position()"/>
+				<xsl:if test="not( contains( /fmp:FMPXMLRESULT/fmp:METADATA/fmp:FIELD[position()=$i]/@NAME, '::' ) )">
 					<xsl:choose>
 						<xsl:when test="position()=last()">
 							<xsl:call-template name="replace-string">
