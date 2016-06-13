@@ -7,7 +7,9 @@
 		<xsl:text>\setkomavar{fromname}{}</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>\setkomavar{fromaddress}{</xsl:text>
-		<xsl:value-of select="/fmp:FMPXMLRESULT/fmp:METADATA/fmp:FIELD[1]/@NAME"/>
+		<!-- static reference to column number intended for related field in master table -->
+		<xsl:value-of select="/fmp:FMPXMLRESULT/fmp:RESULTSET/fmp:ROW/fmp:COL[2]"/>
+		<!-- static reference to column number intended for related field in master table -->
 		<xsl:text>}</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>\setkomavar{signature}{} </xsl:text>
