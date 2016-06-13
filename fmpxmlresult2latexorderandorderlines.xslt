@@ -20,7 +20,9 @@
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>\begin{document}</xsl:text>
 		<xsl:text>&#10;</xsl:text>
-		<xsl:text>\begin{letter}{Name and \\ Address \\ of \\ Recipient}</xsl:text>
+		<xsl:text>\begin{letter}{</xsl:text><xsl:value-of select="/fmp:FMPXMLRESULT/fmp:RESULTSET/fmp:ROW/fmp:COL[3]"/><xsl:text>}</xsl:text>
+		<xsl:text>&#10;</xsl:text>
+		<xsl:text>\opening{}</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>\begin{tabular}{ </xsl:text>
 		<xsl:for-each select="fmp:METADATA/fmp:FIELD">
