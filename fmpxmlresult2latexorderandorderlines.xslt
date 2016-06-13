@@ -7,7 +7,7 @@
 		<xsl:text>\setkomavar{fromname}{}</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>\setkomavar{fromaddress}{</xsl:text>
-		<xsl:value-of select="COL/DATA[1]"/>
+		<xsl:value-of select="/fmp:FMPXMLRESULT/fmp:METADATA/fmp:FIELD[1]/@NAME"/>
 		<xsl:text>}</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>\setkomavar{signature}{} </xsl:text>
