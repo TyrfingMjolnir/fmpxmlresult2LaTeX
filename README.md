@@ -5,6 +5,10 @@ While fmpxmlresult2latex.xslt is a PoC; fmpxmlresult2latexorderlines.xslt has re
 
 <img alt="[x] Format Using Layout will provoke the export to populate the LAYOUT-attribute" src="FormatUsingLayout.png" width="100%" max-width=1008>
 
+Use case
+---
+The purpose of this script is to make FileMaker Server able to generate PDFs on the fly, in order to totally offload the PDF generation from the client. Note you can grab an existing PDF and just add the customized piece of data from your current record set.
+
 License
 =======
 
