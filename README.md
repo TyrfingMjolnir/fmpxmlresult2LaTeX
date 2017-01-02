@@ -9,6 +9,8 @@ Use case
 ---
 The purpose of this script is to make FileMaker Server able to generate PDFs on the fly, in order to totally liberate the client from producing PDFs. Note you can grab an existing PDF and just add the customized piece of data from your current record set.
 
+The newest amendments to this file was done in Berlin at dotfmp 2016
+
 License
 =======
 
