@@ -7,7 +7,7 @@ While fmpxmlresult2latex.xslt is a PoC; fmpxmlresult2latexorderlines.xslt has re
 
 Use case
 ---
-The purpose of this script is to make FileMaker Server able to generate PDFs on the fly, in order to totally offload the PDF generation from the client. Note you can grab an existing PDF and just add the customized piece of data from your current record set.
+The purpose of this script is to make FileMaker Server able to generate PDFs on the fly, in order to totally liberate the client from producing PDFs. Note you can grab an existing PDF and just add the customized piece of data from your current record set.
 
 License
 =======
