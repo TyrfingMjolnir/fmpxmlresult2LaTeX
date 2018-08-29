@@ -11,7 +11,7 @@ The purpose of this script is to make FileMaker Server able to generate PDFs on 
 
 The newest amendments to this file was done in Berlin at dotfmp 2016
 
-I recommend making your template in this commercial application: https://twitter.com/compositorapp or the free application: TeXShop
+I recommend making your template in this commercial application: https://compositorapp.com/ or the free application: TeXShop
 
 License
 =======
